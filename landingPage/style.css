@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2? família=Roboto:wght@300&display=swap');
+@font-face {
+    font-family:'airthan';
+    src: url('./font/Autography.otf') format('opentype');
+    font-weight: normal;
+}   
+html, body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+.container{
+    display: grid;
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-columns: 1fr;
+    background-color: #000814;
+    overflow: hidden;
+}
+.header{
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    color: #f2f2f2;
+    font-size: 24px;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 18px;
+}
+.btn1{
+    width: 90px;
+    height: 35px;
+    border-radius: 9px;
+    color:#f2f2f2;
+    background-color: #000814;
+    border: solid 1px #f2f2f2;
+    cursor: pointer;
+}
+.btn2{
+    width: 90px;
+    height: 35px;
+    border-radius: 9px;
+    background-color: #ffd60a;
+    cursor: pointer;
+}
+.main{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: flex;
+  justify-content: space-between;
+}
+.text{
+    color: #f2f2f2;
+    font-size: 32px;
+    transform: translateX(200px)translateY(-90px);
+}
+.text1{
+    font-size: 18px;
+    transform: translateY(-125px);
+}
+.out{
+    transform: translateX(110px)translateY(-120px);
+}
+.in{
+    color: #ffd60a;
+    transform: translateY(-140px);
+}
+h3{
+    font-family: 'airthan';
+    font-size: 48px;
+}
+h2{
+    transform: translateY(20px);
+}
+.img1{
+    
+    width: 600px;
+}
+.click{
+    font-size: 18px;
+    color: #f2f2f2;
+    text-decoration: none;
+    display: flex;
+    
+}
+.span{
+    display: inline-block;
+    transform: translateY(-110px)translateX(20px);
+    
+}
+.footer{
+   grid-row-start: 3;
+   grid-row-end: 4;
+   display: flex;
+  gap: 60px;
+  transform: translateX(60px); 
+}
+.f{
+    font-size: 14px;
+    color: #ffd60a;
+    font-family: 'Roboto', sans-serif;
+}
+
+.material-symbols-outlined {
+  color: #ffd60a;
+  transform: translateX(130px);
+}
+.span span{
+    color: #ffd60a;
+    display: flex;
+    transform: translateX(-30px)translateY(22px);
+}
